@@ -3,9 +3,6 @@
 // For a full list of overridable settings, and general information on folder-specific settings,
 // see the documentation: https://zed.dev/docs/configuring-zed#settings-files
 {
-  "python": {
-    "interpreter": ".venv/bin/python"
-  },
   "lsp": {
     "python": {
       "settings": {
@@ -15,7 +12,8 @@
             "completeFunctionParens": true,
             "diagnosticMode": "workspace",
             "typeCheckingMode": "basic"
-          }
+          },
+          "interpreter": ".venv/bin/python"
         }
       }
     }
